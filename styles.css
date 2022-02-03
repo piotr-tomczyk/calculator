@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap:10px;
+}
+.typing-space, .firstrow, .secondrow, .thirdrow, .fourthrow, .fifthrow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 48px;
+    height:110px;
+}
+button{
+    font-size: 48px;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    border:none;
+}
+.typing-space{
+    width:440px;
+    padding:0;
+    justify-content:right;
+    text-align: left;
+    font-size: 100px;
+    font-weight: 700;
+    color:white
+}
+#b0{
+    border-radius: 50px;
+    width: 220px;
+    text-align: right;
+    padding-right: 20px;
+}
+#multiplication{
+    padding-bottom: 10px;
+}
+#division, #multiplication, #addition, #substraction, #equals{
+    background-color: #F69A06;
+    color:white;
+}
+#prct, #p-m, #ac{
+    background-color: #A0A0A0;
+}
+#b0,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#dot{
+    background-color: #313131;
+    color:white;
+}
