@@ -39,7 +39,7 @@ button{
     padding:0;
     justify-content:right;
     text-align: left;
-    font-size: 100px;
+    font-size: 72px;
     font-weight: 700;
     color:white
 }
@@ -52,14 +52,23 @@ button{
 #multiplication{
     padding-bottom: 10px;
 }
-#division, #multiplication, #addition, #substraction, #equals{
+.number button{
+    background-color: #313131;
+    color:white;
+}
+.input button{
+    background-color: #A0A0A0;
+}
+.input button:hover{
+    filter: brightness(75%);
+}
+.operations button{
     background-color: #F69A06;
     color:white;
 }
-#prct, #p-m, #ac{
-    background-color: #A0A0A0;
+.operations button:hover{
+    filter: brightness(75%);
 }
-#b0,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#dot{
-    background-color: #313131;
-    color:white;
+.number button:hover{
+    filter: brightness(75%);
 }
